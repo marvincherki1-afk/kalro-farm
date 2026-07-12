@@ -36,45 +36,61 @@ nav a{
 nav a:hover{
     color:#ffd54f;
 }
-
 .hero{
-    height:85vh;
+    height:100vh;
     background:
-        linear-gradient(rgba(0,80,0,0.55), rgba(0,80,0,0.55)),
-        url("images/hero.jpg");
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("images/hero.jpg");
+
     background-size:cover;
     background-position:center;
-    background-repeat:no-repeat;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     text-align:center;
     color:white;
 }
+
+.hero-content{
+    max-width:800px;
 }
 
-.hero-content h1{
-    font-size:55px;
+.hero h1{
+    font-size:60px;
     margin-bottom:20px;
 }
 
-.hero-content p{
+.hero p{
     font-size:22px;
-    margin-bottom:30px;
+    line-height:1.8;
+    margin-bottom:35px;
 }
 
-button{
-    background:#43a047;
-    color:white;
-    border:none;
+.btn{
+    display:inline-block;
     padding:15px 35px;
-    border-radius:30px;
-    font-size:18px;
-    cursor:pointer;
+    margin:10px;
+    background:#2e8b57;
+    color:white;
+    text-decoration:none;
+    border-radius:40px;
+    transition:.3s;
 }
 
-button:hover{
-    background:#2e7d32;
+.btn:hover{
+    background:#1d6b40;
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid white;
+}
+
+.btn-outline:hover{
+    background:white;
+    color:#2e8b57;
 }
 
 section{
