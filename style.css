@@ -11,35 +11,43 @@ body{
 }
 
 header{
-    background:#1b5e20;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 40px;
-    position:sticky;
-    top:0;
+    background: rgba(27,94,32,0.95);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
 }
 
 .logo{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 28px;
+    gap: 15px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
 }
 
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    object-fit: cover;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 nav a{
     color:white;
     text-decoration:none;
-    margin-left:20px;
+    margin-left:25px;
     font-weight:bold;
+    transition:0.3s;
+    font-size:17px;
 }
 
 nav a:hover{
@@ -67,39 +75,35 @@ nav a:hover{
 }
 
 .hero h1{
-    font-size:60px;
+    font-size:72px;
     margin-bottom:20px;
+    font-weight:800;
+    text-shadow:3px 3px 12px rgba(0,0,0,.5);
 }
 
 .hero p{
-    font-size:22px;
+    font-size:24px;
     line-height:1.8;
-    margin-bottom:35px;
+    margin-bottom:40px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.4);
 }
 
 .btn{
     display:inline-block;
-    padding:15px 35px;
+    padding:16px 40px;
     margin:10px;
     background:#2e8b57;
     color:white;
     text-decoration:none;
-    border-radius:40px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
     transition:.3s;
 }
 
 .btn:hover{
+    transform:translateY(-3px);
     background:#1d6b40;
-}
-
-.btn-outline{
-    background:transparent;
-    border:2px solid white;
-}
-
-.btn-outline:hover{
-    background:white;
-    color:#2e8b57;
 }
 
 section{
@@ -112,7 +116,7 @@ h2{
     margin-bottom:30px;
 }
 
-..card{
+.card{
     background:white;
     width:300px;
     display:inline-block;
