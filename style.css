@@ -208,3 +208,41 @@ form button:hover{
 iframe{
     border-radius:15px;
 }
+/* WHY CHOOSE US */
+
+.why-us{
+    background:#ffffff;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.feature{
+    width:320px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.feature:hover{
+    transform:translateY(-10px);
+}
+
+.feature h3{
+    color:#1b5e20;
+    margin-bottom:20px;
+}
+
+.feature p{
+    line-height:1.7;
+    color:#555;
+}
