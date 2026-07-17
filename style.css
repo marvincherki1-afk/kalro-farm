@@ -361,3 +361,48 @@ iframe{
     color:white;
     transform:scale(1.05);
 }
+/* SOCIAL LINKS */
+
+.social-links{
+    margin-top:30px;
+}
+
+.social-links a{
+    display:inline-block;
+    margin:10px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    color:#ffd54f;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    margin-top:40px;
+}
+
+.newsletter input{
+    width:300px;
+    max-width:90%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    margin-right:10px;
+}
+
+.newsletter button{
+    padding:12px 25px;
+    background:#ffd54f;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.newsletter button:hover{
+    background:white;
+}
