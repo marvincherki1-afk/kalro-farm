@@ -289,3 +289,75 @@ iframe{
 .stat-box p{
     font-size:18px;
 }
+/* TESTIMONIALS */
+
+.testimonials{
+    background:#f9f9f9;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.testimonial{
+    width:320px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.testimonial:hover{
+    transform:translateY(-8px);
+}
+
+.testimonial p{
+    font-style:italic;
+    color:#555;
+    line-height:1.7;
+}
+
+.testimonial h4{
+    margin-top:20px;
+    color:#1b5e20;
+}
+/* PARTNERS */
+
+.partners{
+    background:#ffffff;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.partner-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.partner-card{
+    width:240px;
+    padding:30px;
+    background:#f4f4f4;
+    border-radius:15px;
+    font-size:22px;
+    font-weight:bold;
+    color:#1b5e20;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.partner-card:hover{
+    background:#1b5e20;
+    color:white;
+    transform:scale(1.05);
+}
