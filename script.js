@@ -1,28 +1,21 @@
 // Welcome message
-window.onload = function () {
-    console.log("Welcome to Kalro Farm Website!");
+// Show the button when scrolling
+
+let topButton = document.getElementById("topBtn");
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
 };
 
-// Smooth scrolling for navigation links
-document.querySelectorAll("nav a").forEach(link => {
-    link.addEventListener("click", function (e) {
-        e.preventDefault();
+// Scroll back to top
 
-        const target = document.querySelector(this.getAttribute("href"));
-
-        if (target) {
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-    });
-});
-
-// Button click message
-const button = document.querySelector("button");
-
-if (button) {
-    button.addEventListener("click", function () {
-        alert("Welcome to Kalro Farm! Explore our livestock, poultry, and farming services.");
+function topFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
     });
 }
