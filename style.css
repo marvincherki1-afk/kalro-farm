@@ -455,3 +455,61 @@ iframe{
 .gallery img:hover{
     transform:scale(1.05);
 }
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.contact-info,
+.contact-form{
+    flex:1;
+    min-width:300px;
+}
+
+.contact-info p{
+    margin:15px 0;
+    font-size:18px;
+}
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.social-links{
+    margin:25px 0;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    color:#FFD54F;
+}
