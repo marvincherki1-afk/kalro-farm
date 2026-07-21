@@ -1,4 +1,4 @@
-# Kalro Farm Website
+# NAI'POSHA DAIRY FARM Website
 
 A modern agricultural website developed using HTML, CSS and JavaScript.
 
